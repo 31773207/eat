@@ -1,4 +1,3 @@
-// src/components/NewArrival.jsx
 import React, { useContext } from "react";
 import ItemCard from "./ItemCard"; // Assuming ItemCard is the reusable component that displays product info
 import { CartContext } from "../context/CartContext";

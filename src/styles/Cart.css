@@ -2,9 +2,9 @@
   max-width: 800px;
   margin: 20px auto;
   padding: 20px 30px;
-  background-color: #fafafa;
+  background-color: rgb(206, 163, 163)7f;
   border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px#c47f7f;
   font-family: 'Poppins', sans-serif;
   color: #333;
 }
@@ -12,8 +12,10 @@
 .cart-page h2 {
   font-size: 2rem;
   text-align: center;
-  color: #2ba9ad;
+  color: #d94f4f;
   margin-bottom: 30px;
+  text-shadow: 10px 10px 10px rgba(191, 90, 63, 0.3);
+
 }
 
 .cart-item {
@@ -33,7 +35,7 @@
   height: 80px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(43, 169, 173, 0.3);
+  box-shadow: 0 9px 20px  rgba(255, 107, 107, 0.35);
   flex-shrink: 0;
 }
 
@@ -60,22 +62,22 @@
 }
 
 .cart-item button {
-  background-color: #2ba9ad;
+  background-color: #d94f4f;
   color: white;
   border: none;
   padding: 8px 14px;
   border-radius: 30px;
   font-weight: 600;
   font-size: 1rem;
-  box-shadow: 0 4px 12px rgba(43, 169, 173, 0.5);
+  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.35);
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   user-select: none;
 }
 
 .cart-item button:hover {
-  background-color: #1f7a7a;
-  box-shadow: 0 6px 16px rgba(31, 122, 122, 0.8);
+  background-color:#c47f7f;
+  box-shadow: 0 6px 16px rgba(255, 107, 107, 0.35);
 }
 
 .cart-item button:disabled {
@@ -89,7 +91,7 @@ h3 {
   font-size: 1.8rem;
   margin-top: 25px;
   font-weight: 700;
-  color: #2ba9ad;
+  color: #d94f4f;
 }
 /* Responsive */
 @media (max-width: 600px) {
@@ -104,14 +106,14 @@ h3 {
   }
 }
 .checkout-button {
-  background-color: #2ba9ad;
+  background-color: #d94f4f;
   color: white;
   border: none;
   padding: 12px 20px;
   border-radius: 30px;
   font-weight: 600;
   font-size: 1.2rem;
-  box-shadow: 0 4px 12px rgba(43, 169, 173, 0.5);
+  box-shadow: 0 4px 12px  rgba(255, 107, 107, 0.35);
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   margin-top: 20px;
@@ -120,6 +122,6 @@ h3 {
 }
 
 .checkout-button:hover {
-  background-color: #1f7a7a;
-  box-shadow: 0 6px 16px rgba(31, 122, 122, 0.8);
+  background-color:  #c47f7f;
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.35);
 }

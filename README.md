@@ -33,7 +33,7 @@ To run the Eat & Love & Repeat project locally, follow these steps:
 
 1. **Clone the GitHub Repository:**
    Open your terminal and run the following command to clone the repository to your local machine:
-   git clone https://github.com/yourusername/eat-love-repeat.git
+   git clone [https://github.com/yourusername/eat-love-repeat.git](https://github.com/31773207/eat.git)
    
 2.**Navigate to the Project Directory:**
 Change into the project directory using the following command:
